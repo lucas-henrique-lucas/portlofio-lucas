@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Olá, esté é o meu portfólio! Aqui, você encontrará exemplos do meu trabalho com HTML e CSS, demostrando minhas habilidades em criar sites modernos e funcionais. Sinta-se á vontade para explorar meus projetos e entrar em contato.">
+    <link rel="shortcut icon" href="img/dialpad.svg" type="image/x-icon">
+    <title>Lucas Henrique</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <h1 class="header__titulo"><img src="img/dialpad.svg" alt="" class="header__titulo_img">Lucas Henrique</h1>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__menu_item"><a href="#sobremim" class="header__menu_item_link">Sobre mim</a></li>
+                <li class="header__menu_item"><a href="#habilidade" class="header__menu_item_link">Habilidades</a></li>
+                <li class="header__menu_item"><a href="#formacao" class="header__menu_item_link">Formação</a></li>
+                <li class="header__menu_item"><a href="#projetos" class="header__menu_item_link">Projetos</a></li>
+                <li class="header__menu_item"><a href="#contato" class="header__menu_item_link">Contato@lucas.com</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="apresentacao" class="apresentacao">
+        <div class="apresentacao__descricao">
+            <h1 class="apresentacao__titulo">Olá, meu nome é Lucas e construo páginas web</h1>
+            <p class="apresentacao__texto">Sou certificado em Programação Web, programador de sistemas e participei do programa educacional Oracle ONE.</p>
+            <nav class="apresentacao__nav">
+                <a href="https://github.com/lucas-henrique-lucas" class="apresentacao__nav_link">Github<img src="img/arrow.svg" alt=""></a>
+                <a href="#" class="apresentacao__nav_link">LinkedIn<img src="img/arrow.svg" alt=""></a>
+                <a href="#" class="apresentacao__nav_link">Instagram<img src="img/arrow.svg" alt=""></a>
+                <a href="#" class="apresentacao__nav_link">Currículo<img src="img/arrow.svg" alt=""></a>
+            </nav>
+        </div>
+        <div class="apresentacao__imagem">
+            <img src="img/perfil.jpg" alt="" class="apresentacao__imagem_perfil">
+        </div>
+    </main>
+    <section id="sobremim" class="sobremim">
+        <div class="sobremim__conteudo">
+            <h2 class="sobremim__titulo">Sobre mim</h2>
+            <p class="sobremim__texto">Sou certificado em <strong>Programação Web pelo Senac</strong> e atuei em diversos projetos voltados para o desenvolvimento web. Tenho conhecimentos sólidos em <strong>HTML, CSS, JavaScript e PHP</strong>, além de experiência na criação de sites dinâmicos e sistemas interativos.</p>
+            <br>
+            <p class="sobremim__texto">Participei do programa educacional <strong>Oracle ONE</strong>, onde aprimorei minhas habilidades em desenvolvimento e boas práticas de programação. Atualmente, continuo expandindo meus conhecimentos para entregar soluções cada vez mais eficientes.</p>
+        </div>
+    </section>
+    <section id="habilidade" class="habilidade">
+        <h2 class="habilidade__titulo">Habilidades</h2>
+        <ul class="habilidade__lista">
+            <li class="habilidade__lista_item"><img src="img/brand-html5.svg" alt="">Html5</li>
+            <li class="habilidade__lista_item"><img src="img/brand-css3.svg" alt="">Css</li>
+            <li class="habilidade__lista_item"><img src="img/brand-javascript.svg" alt="">Javascript</li>
+            <li class="habilidade__lista_item"><img src="img/brand-php.svg" alt="">PHP</li>
+        </ul>
+    </section>
+    <section id="formacao" class="formacao">
+        <div class="formacao__conteudo">
+            <h2 class="formacao__titulo">Formação acadêmica</h2>
+            <ul class="formacao__lista">
+                <li class="formacao__lista_item">
+                    <figure class="formacao__lista_item_imagem">
+                        <img src="img/senac.png" alt="logo do Senac.">
+                    </figure>
+                    <div class="formacao__lista_item_descricao">
+                        <h3 class="formacao__lista_item_titulo">Programador Web</h3>
+                        <p class="formacao__lista_item_texto">Senac - 2021</p>
+                    </div>
+                </li>
+                <li class="formacao__lista_item">
+                    <figure class="formacao__lista_item_imagem">
+                        <img src="img/senac.png" alt="logo do Senac.">
+                    </figure>
+                    <div class="formacao__lista_item_descricao">
+                        <h3 class="formacao__lista_item_titulo">Programador de Sistemas</h3>
+                        <p class="formacao__lista_item_texto">Senac - 2022</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="projetos" class="projetos">
+        <h2 class="projetos__titulo">Experiência profissional</h2>
+        <ul class="projetos__lista">
+            <li class="projetos__lista_item">
+                <div class="projetos__lista_item_imagem">
+                    <img src="img/jester.jpeg" alt="">
+                </div>
+                <div class="projetos__lista_item_informacoes">
+                    <h3 class="projetos__lista_item_titulo">Decodificador de texto</h3>
+                    <p class="projetos__lista_item_texto">Challenge Alura Codificador</p>
+                    <nav class="projetos__lista_item_links">
+                        <a href="https://github.com/lucas-henrique-lucas/ONE-desafio-decodificador-de-texto" class="btn tipo-primeiro">Repositório</a>
+                        <a href="https://lucas-henrique-lucas.github.io/ONE-desafio-decodificador-de-texto/" class="btn tipo-segundo">Ver demo</a>
+                    </nav>
+                </div>
+            </li>
+            <li class="projetos__lista_item">
+                <div class="projetos__lista_item_imagem">
+                    <img src="img/seliga.jpeg" alt="">
+                </div>
+                <div class="projetos__lista_item_informacoes">
+                    <h3 class="projetos__lista_item_titulo">To-Do List</h3>
+                    <p class="projetos__lista_item_texto">Projeto de Prática</p>
+                    <nav class="projetos__lista_item_links">
+                        <a href="https://github.com/lucas-henrique-lucas/lseLiga-lista-de-tarefas" class="btn tipo-primeiro">Repositório</a>
+                        <a href="https://lucas-henrique-lucas.github.io/lseLiga-lista-de-tarefas/" class="btn tipo-segundo">Ver demo</a>
+                    </nav>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section id="contato" class="contato">
+        <div class="contato__conteudo">
+            <figure class="contato__imagem">
+                <img src="img/contato.png" alt="">
+            </figure>
+            <div class="contato__info">
+                <h1 class="contato__info_titulo">Contato</h1>
+                <p class="contato__info_texto">
+                    Quer entrar em contato comigo?<br>Envie-me uma mensagem pelo <strong>Whatsapp</strong> ou me mande um <strong>E-mail.</strong>
+                </p>
+                <a href="https://wa.me/5575998280886" class="btn tipo-whatsapp">
+                    <img src="img/brand-whatsapp.svg" alt="">Mandar mensagem
+                </a>
+                <p class="contato__info_email">
+                    <img src="img/mail.svg" alt="">
+                    <a href="#">lucashenr775@gmail.com</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <p class="footer__texto">Desenvolvido por Lucas Henrique</p>
+    </footer>
+</body>
+
+</html>
